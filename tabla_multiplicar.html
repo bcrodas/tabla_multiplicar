@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de multiplicar</title>
+  <link rel="stylesheet" href="./public/vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/estilos.css">
+</head>
+
+<body class="bg-light">
+
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-lg p-4" style="max-width: 480px; width: 100%;">
+      <h4 class="text-center text-primary mb-4">Tabla de Multiplicar</h4>
+
+      <form id="tabla">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Ingrese un número" aria-label="Recipient's username" aria-describedby="button-addon2" id="numero">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Generar Tabla</button>
+        </div>
+      </form>
+
+      <div class="mt-4">
+        <h5 class="text-center text-success">Resultado Final</h5>
+        <textarea id="resultado" class="form-control text-center mt-2" rows="3" readonly placeholder="Aquí aparecerá su resultado..."></textarea>
+      </div>
+
+      <div class="mt-4 text-center">
+        <small class="text-muted">© 2025 Tabla de multiplicar | Bárbara Rodas</small>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="public/vendor/js/bootstrap.bundle.min.js"></script>
+  <script src="public/js/tabla.js"></script>
+</body>
+</html>

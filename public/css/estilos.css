@@ -1,0 +1,49 @@
+
+/*Fondo suave con degradado*/
+body {
+  background: linear-gradient(135deg, #e5f0d7, #fbffea);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+/*Tarjeta moderna*/
+.card {
+  border-radius: 20px;
+  background-color: #d1f5f5b8;
+  align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    align-self: center;
+}
+
+/*Título*/
+h4 {
+  color: #4a8bed;
+}
+
+/*Botones*/
+#button-addon2, #btnCalcular {
+  background-color: #99b5e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/*resultado*/
+#resultado {
+  margin-top: 20px;
+  border: 2px solid #4a8bed;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.1em;
+  background-color: #f0f8ff;
+  height: 350px;
+}
+
+/*Pie de página*/
+small {
+  color: #6c757d;
+}
